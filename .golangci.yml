@@ -1,0 +1,21 @@
+run:
+  timeout: 5m
+  modules-download-mode: readonly
+
+linters:
+  disable-all: true
+  enable:
+    - gofmt
+    - goimports
+    - govet
+    - cyclop
+    - asasalint
+    - dupl
+    - goconst
+    - gosec
+    - grouper
+    - lll
+    - misspell
+    - prealloc
+    - unparam
+    - usestdlibvars
